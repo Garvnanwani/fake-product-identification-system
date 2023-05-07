@@ -580,9 +580,12 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 2rem auto;
 }
+.container h2 {
+  margin-bottom: 2rem;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -644,6 +647,7 @@ pre code {
 
 .text-container {
   text-transform: uppercase;
+  margin: auto 2rem;
 }
 
 .image-container {
